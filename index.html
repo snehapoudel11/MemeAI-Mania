@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeAI Mania | AI-Powered Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --dark-blue: #011425;
+            --medium-blue: #1F4959;
+            --neon-primary: #00f3ff;
+            --neon-secondary: #0066ff;
+            --neon-accent: #ff00b7;
+            --text-primary: #ffffff;
+            --text-secondary: #cccccc;
+        }
+    </style>
+</head>
+<body class="neon-theme">
+    <!-- Animated Background -->
+    <div class="neon-bg"></div>
+    
+    <!-- Navigation -->
+    <nav class="neon-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo glow">
+                <i class="fas fa-robot"></i>
+                <span>MemeAI</span>Mania
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active glow">Home</a></li>
+                <li><a href="about.html" class="glow">About</a></li>
+                <li><a href="quiz.html" class="glow">Quiz</a></li>
+                <li><a href="gallery.html" class="glow">Gallery</a></li>
+                <li><a href="tips.html" class="glow">Tips</a></li>
+                <li><a href="contact.html" class="glow">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <canvas id="particle-canvas"></canvas>
+        <div class="hero-content">
+            <h1><span class="neon-text">Discover Your Meme</span><span class="text-gradient"><br>Personality</span></h1>
+            <p class="subtitle">Our AI analyzes your answers to match you with the perfect meme alter ego</p>
+            <a href="quiz.html" class="neon-button pulse">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Take the Quiz Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="section-header">
+            <h2>Why <span class="neon-text">MemeAI</span> Mania?</h2>
+            <div class="neon-divider"></div>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card glow-hover">
+                <div class="icon-box">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>AI-Powered</h3>
+                <p>Advanced neural networks analyze your personality traits</p>
+            </div>
+            <div class="feature-card glow-hover">
+                <div class="icon-box">
+                    <i class="fas fa-laugh-squint"></i>
+                </div>
+                <h3>100+ Memes</h3>
+                <p>Massive collection of classic and trending templates</p>
+            </div>
+            <div class="feature-card glow-hover">
+                <div class="icon-box">
+                    <i class="fas fa-share-alt"></i>
+                </div>
+                <h3>Shareable</h3>
+                <p>Download or share your results with friends</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Memes -->
+    <section class="trending-memes">
+        <div class="section-header">
+            <h2><span class="neon-text">Today's</span> <span class="text-gradient">Viral Memes</span></h2>
+            <div class="neon-divider"></div>
+        </div>
+        <div class="meme-carousel">
+            <!-- Filled by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="neon-footer">
+        <p>&copy; 2024 MemeAI Mania | Created for Islington College</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="particles.js"></script>
+</body>
+</html>
