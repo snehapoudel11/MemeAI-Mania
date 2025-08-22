@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Meme Personality Quiz | MemeAI Mania</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="neon-theme"> 
+    <!-- Navigation --> 
+    <nav class="neon-nav"> 
+        <div class="nav-container"> 
+            <a href="index.html" class="logo glow"> 
+                <i class="fas fa-robot"></i> <span>MemeAI</span>Mania 
+            </a> 
+            <ul class="nav-links">
+                <li><a href="index.html" class="glow">Home</a></li> 
+                <li><a href="about.html" class="glow">About</a></li>
+                <li><a href="quiz.html" class="active glow">Quiz</a></li> 
+                <li><a href="gallery.html" class="glow">Gallery</a></li> 
+                <li><a href="tips.html" class="glow">Tips</a></li> 
+                <li><a href="contact.html" class="glow">Contact</a></li>
+            </ul> 
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="quiz-container">
+        <div class="quiz-header">
+            <h1 class="neon-text">Meme Personality Quiz</h1>
+            <p>Answer these 15 hilarious questions to discover your meme alter ego!</p>
+        </div>
+
+        <form id="memeQuiz">
+            <!-- Question 1  -->
+
+            <div class="quiz-question active">
+                <div class="question-number">Question 1/15</div>
+                <h2>When your code finally works after 47 attempts:</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q1" value="god">
+                        <div class="option-content">
+                            <i class="fas fa-crown"></i>
+                            <span>Feel like a coding god temporarily</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q1" value="fear">
+                        <div class="option-content">
+                            <i class="fas fa-flushed"></i>
+                            <span>Fear touching anything in case it breaks</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q1" value="celebrate">
+                        <div class="option-content">
+                            <i class="fas fa-trophy"></i>
+                            <span>Do a victory dance that concerns pets</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q1" value="question">
+                        <div class="option-content">
+                            <i class="fas fa-question"></i>
+                            <span>Question what black magic made it work</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 2 -->
+
+            <div class="quiz-question">
+                <div class="question-number">Question 2/15</div>
+                <h2>If animals could talk, which would be the rudest?</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q6" value="cat">
+                        <div class="option-content">
+                            <i class="fas fa-cat"></i>
+                            <span>Cats - they already judge us silently</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q6" value="goose">
+                        <div class="option-content">
+                            <i class="fas fa-feather"></i>
+                            <span>Geese - they're already angry for no reason</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q6" value="dolphin">
+                        <div class="option-content">
+                            <i class="fas fa-water"></i>
+                            <span>Dolphins - they know too much</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q6" value="squirrel">
+                        <div class="option-content">
+                            <i class="fas fa-tree"></i>
+                            <span>Squirrels - they've seen things</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+
+
+            <div class="quiz-question">
+                <div class="question-number">Question 3/15</div>
+                <h2>What would be the worst superpower to have?</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q9" value="hear">
+                        <div class="option-content">
+                           <i class="fa-solid fa-face-grimace"></i>
+                            <span>Hearing everyone's thoughts accidentally</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q9" value="smell">
+                        <div class="option-content">
+                            <i class="fas fa-wind"></i>
+                            <span>Super smell - the world is stinky</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q9" value="invisible">
+                        <div class="option-content">
+                            <i class="fas fa-eye-slash"></i>
+                            <span>Invisibility but only when no one's looking</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q9" value="fly">
+                        <div class="option-content">
+                            <i class="fas fa-feather"></i>
+                            <span>Flight but only 2 inches off ground</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+
+            <!-- Question 4 -->
+
+            <div class="quiz-question">
+                <div class="question-number">Question 4/15</div>
+                <h2>What would be the worst thing to hear as you're going under anesthesia?</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q11" value="oops">
+                        <div class="option-content">
+                            <i class="fas fa-skull"></i>
+                            <span>"Oops"</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q11" value="youtube">
+                        <div class="option-content">
+                            <i class="fas fa-tv"></i>
+                            <span>"I'll just watch one quick YouTube tutorial"</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q11" value="first">
+                        <div class="option-content">
+                            <i class="fas fa-user-md"></i>
+                            <span>"Well, it's my first time but how hard can it be?"</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q11" value="bet">
+                        <div class="option-content">
+                            <i class="fas fa-money-bill"></i>
+                            <span>"I bet you $50 I can do this"</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 5 -->
+            <div class="quiz-question">
+                <div class="question-number">Question 5/15</div>
+                <h2>When you find code you wrote 6 months ago:</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q5" value="pride">
+                        <div class="option-content">
+                            <i class="fas fa-heart"></i>
+                            <span>Feel proud of your genius</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q5" value="cringe">
+                        <div class="option-content">
+                           <i class="fa-regular fa-face-grimace"></i>
+                            <span>Cringe at your past self</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q5" value="question">
+                        <div class="option-content">
+                            <i class="fas fa-question"></i>
+                            <span>Question who wrote this garbage</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q5" value="rewrite">
+                        <div class="option-content">
+                            <i class="fas fa-pen-fancy"></i>
+                            <span>Immediately rewrite everything</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 6 -->
+             
+                        <!-- Question 6 (Coding - REPLACED) -->
+            <div class="quiz-question">
+                <div class="question-number">Question 6/15</div>
+                <h2>After 6 hours of debugging, you find the issue was a missing semicolon :</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q6" value="rage">
+                        <div class="option-content">
+                            <i class="fas fa-angry"></i>
+                            <span>Rage-quit and question your life choices</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q6" value="laugh">
+                        <div class="option-content">
+                            <i class="fa-regular fa-face-grin-squint-tears"></i>
+                            <span>Laugh maniacally while crying inside</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q6" value="blame">
+                        <div class="option-content">
+                            <i class="fa-regular fa-face-rolling-eyes"></i>
+                            <span>Blame the IDE for not highlighting it (Because its never our fault,right?)</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q6" value="celebrate">
+                        <div class="option-content">
+                            <i class="fas fa-trophy"></i>
+                            <span>Celebrate like you solved world hunger</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 7 -->
+            <div class="quiz-question">
+                <div class="question-number">Question 7/15</div>
+                <h2>What would be the worst "buy one get one free" deal?</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q7" value="divorce">
+                        <div class="option-content">
+                            <i class="fas fa-ring"></i>
+                            <span>Divorces</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q7" value="rootcanal">
+                        <div class="option-content">
+                            <i class="fas fa-tooth"></i>
+                            <span>Root canals</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q7" value="taxaudit">
+                        <div class="option-content">
+                            <i class="fas fa-receipt"></i>
+                            <span>Tax audits</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q7" value="pineapple">
+                        <div class="option-content">
+                            <i class="fas fa-pizza-slice"></i>
+                            <span>Pineapple pizzas</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 8  -->
+            <div class="quiz-question">
+                <div class="question-number">Question 8/15</div>
+                <h2>What would be the worst food to bring to a silent retreat?</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q8" value="chips">
+                        <div class="option-content">
+                            <i class="fas fa-cookie"></i>
+                            <span>Potato chips in the loudest bag possible</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q8" value="soup">
+                        <div class="option-content">
+                            <i class="fas fa-utensil-spoon"></i>
+                            <span>Slurpy soup that requires extreme noise</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q8" value="popcorn">
+                        <div class="option-content">
+                         <i class="fa-solid fa-face-grin-beam-sweat"></i>
+                            <span>Popcorn that you kernal-by-kernal</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q8" value="celery">
+                        <div class="option-content">
+                            <i class="fas fa-seedling"></i>
+                            <span>Celery that sounds like breaking bones</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 9 -->
+            
+            <div class="quiz-question">
+                <div class="question-number">Question 9/15</div>
+                <h2>When you discover a junior dev's code has no comments:</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q3" value="judge">
+                        <div class="option-content">
+                            <i class="fas fa-gavel"></i>
+                            <span>Judge them silently but intensely</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q3" value="understand">
+                        <div class="option-content">
+                            <i class="fas fa-brain"></i>
+                            <span>Understand - your code is also a mystery</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q3" value="teach">
+                        <div class="option-content">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>Give a 3-hour lecture on commenting</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q3" value="adopt">
+                        <div class="option-content">
+                            <i class="fas fa-child"></i>
+                            <span>Adopt them as your coding padawan</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            
+            <!-- Question 10 -->
+            <div class="quiz-question">
+                <div class="question-number">Question 10/15</div>
+                <h2>What's the most illegal thing you've done to avoid social interaction?</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q10" value="hide">
+                        <div class="option-content">
+                            <i class="fas fa-trash"></i>
+                            <span>Hidden in a public trash can</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q10" value="pretend">
+                        <div class="option-content">
+                            <i class="fas fa-phone-slash"></i>
+                            <span>Pretended to be on phone with fake conversations</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q10" value="escape">
+                        <div class="option-content">
+                            <i class="fa-solid fa-person-running"></i>
+                            <span>Climbed out a bathroom window</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q10" value="lie">
+                        <div class="option-content">
+                            <i class="fas fa-comment-medical"></i>
+                            <span>Faked a medical emergency</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 11 -->
+
+            
+            <div class="quiz-question">
+                <div class="question-number">Question 11/15</div>
+                <h2>Your approach to naming variables:</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q4" value="descriptive">
+                        <div class="option-content">
+                            <i class="fas fa-file-alt"></i>
+                            <span>So descriptive they're short stories</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q4" value="cryptic">
+                        <div class="option-content">
+                            <i class="fas fa-question-circle"></i>
+                            <span>So cryptic even you don't understand later</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q4" value="funny">
+                        <div class="option-content">
+                            <i class="fas fa-laugh-squint"></i>
+                            <span>Inside jokes that confuse everyone else</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q4" value="single">
+                        <div class="option-content">
+                            <i class="fas fa-font"></i>
+                            <span>Single letters like a math textbook</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+           
+            
+            <!-- Question 12 -->
+            <div class="quiz-question">
+                <div class="question-number">Question 12/15</div>
+                <h2>What completely normal thing feels extremely illegal?</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q12" value="walking">
+                        <div class="option-content">
+                            <i class="fas fa-walking"></i>
+                            <span>Walking out a store without buying anything</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q12" value="volume">
+                        <div class="option-content">
+                            <i class="fas fa-volume-up"></i>
+                            <span>Turning the volume above 50%</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q12" value="snack">
+                        <div class="option-content">
+                            <i class="fas fa-cookie"></i>
+                            <span>Taking the last snack without asking</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q12" value="button">
+                        <div class="option-content">
+                            <i class="fas fa-toggle-on"></i>
+                            <span>Pressing the crosswalk button multiple times</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 13 -->
+            <div class="quiz-question">
+                <div class="question-number">Question 13/15</div>
+                <h2>What's the most ridiculous thing you've cried over?</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q13" value="food">
+                        <div class="option-content">
+                            <i class="fas fa-utensils"></i>
+                            <span>Dropped food</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q13" value="commercial">
+                        <div class="option-content">
+                            <i class="fas fa-tv"></i>
+                            <span>A commercial with a sad animal</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q13" value="algorithm">
+                        <div class="option-content">
+                            <i class="fas fa-brain"></i>
+                            <span>YouTube algorithm not understanding you</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q13" value="sock">
+                        <div class="option-content">
+                            <i class="fas fa-socks"></i>
+                            <span>Matching socks being too matchy</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 14 -->
+            <div class="quiz-question">
+                <div class="question-number">Question 14/15</div>
+                <h2>What mundane task would be the most exciting if done like a movie hero?</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q14" value="laundry">
+                        <div class="option-content">
+                            <i class="fas fa-tshirt"></i>
+                            <span>Folding laundry with dramatic music</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q14" value="dishes">
+                        <div class="option-content">
+                            <i class="fas fa-soap"></i>
+                            <span>Washing dishes in slow motion</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q14" value="email">
+                        <div class="option-content">
+                            <i class="fas fa-envelope"></i>
+                            <span>Responding to emails with epic one-liners</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q14" value="groceries">
+                        <div class="option-content">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>Unpacking groceries like disarming a bomb</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 15 -->
+            <div class="quiz-question">
+                <div class="question-number">Question 15/15</div>
+                <h2>What's the most unnecessary thing you've ever argued about?</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q15" value="pineapple">
+                        <div class="option-content">
+                            <i class="fas fa-pizza-slice"></i>
+                            <span>Pineapple on pizza (it's delicious, fight me)</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q15" value="toilet">
+                        <div class="option-content">
+                            <i class="fas fa-toilet-paper"></i>
+                            <span>Toilet paper orientation</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q15" value="cereal">
+                        <div class="option-content">
+                            <i class="fas fa-bowl-food"></i>
+                            <span>Milk before cereal</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q15" value="shower">
+                        <div class="option-content">
+                            <i class="fas fa-shower"></i>
+                            <span>Whether shower thoughts are valid philosophy</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="quiz-navigation">
+                <button type="button" class="neon-button outline" id="prevBtn" disabled>Previous</button>
+                <button type="button" class="neon-button" id="nextBtn">Next</button>
+            </div>
+        </form>
+
+        <div id="quizResult" class="hidden">
+            <div class="result-header">
+                <h2>Your Meme Personality Is...</h2>
+                <div class="result-score">
+                    <span id="matchPercentage">92%</span> Match!
+                </div>
+            </div>
+            
+            <div class="result-card glow">
+                <div class="result-meme" id="resultMeme">🤔</div>
+                <div class="result-details">
+                    <h3 id="resultTitle">Thinking Guy</h3>
+                    <p id="resultDescription">You're the philosopher of memes, always deep in thought about life's important questions like "Why did the chicken cross the road?" and "Where did I leave my keys?"</p>
+                    
+                    <div class="result-actions">
+                        <button class="neon-button" id="saveResult">
+                            <i class="fas fa-download"></i> Save Result
+                        </button>
+                        <button class="neon-button outline" id="shareResult">
+                            <i class="fas fa-share-alt"></i> Share
+                        </button>
+                        <button class="neon-button outline" id="retakeQuiz">
+                            <i class="fas fa-redo"></i> Retake
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
+
+    <!-- Footer -->
+    <footer class="neon-footer"> 
+        <p>&copy; 2025 MemeAI Mania | Islington College</p> 
+    </footer>

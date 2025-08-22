@@ -543,3 +543,127 @@ body {
     color: var(--text-secondary);
     line-height: 1.6;
 }
+
+/* Quiz Page Styles */
+.quiz-container {
+    padding: 8rem 5% 5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quiz-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.quiz-question {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.quiz-question.active {
+    display: block;
+}
+
+.question-number {
+    color: var(--neon-secondary);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.option-card {
+    position: relative;
+}
+
+.option-card input {
+    position: absolute;
+    opacity: 0;
+}
+
+.option-content {
+    background: rgba(31, 73, 89, 0.3);
+    border: 1px solid var(--medium-blue);
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.option-card input:checked + .option-content {
+    border-color: var(--neon-primary);
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
+}
+
+.option-content i {
+    font-size: 2rem;
+    color: var(--neon-primary);
+    margin-bottom: 1rem;
+}
+
+.quiz-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+#quizResult {
+    display: none;
+    animation: fadeIn 1s ease;
+}
+
+.result-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.result-score {
+    font-size: 1.2rem;
+    color: var(--neon-primary);
+    margin-top: 1rem;
+}
+
+.result-card {
+    background: rgba(31, 73, 89, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.result-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.result-details h3 {
+    font-size: 2rem;
+    color: var(--neon-primary);
+    margin-bottom: 1rem;
+}
+
+.result-details p {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.result-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
