@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Gallery | MemeAI Mania</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="neon-theme">
+    
+    <!-- Navigation -->
+    <nav class="neon-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo glow">
+                <i class="fas fa-robot"></i>
+                <span>MemeAI</span>Mania
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="glow">Home</a></li>
+                <li><a href="about.html" class="glow">About</a></li>
+                <li><a href="quiz.html" class="glow">Quiz</a></li>
+                <li><a href="gallery.html" class="active glow">Gallery</a></li>
+                <li><a href="tips.html" class="glow">Tips</a></li>
+                <li><a href="contact.html" class="glow">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="gallery-container">
+        <div class="gallery-header">
+            <h1 class="neon-text">Meme Gallery</h1>
+            <p>Browse our collection of 50+ meme templates</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search memes..." id="memeSearch">
+                <button class="neon-button small">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="category-filters">
+                <button class="neon-button small outline active" data-filter="all">All</button>
+                <button class="neon-button small outline" data-filter="trending">Trending</button>
+                <button class="neon-button small outline" data-filter="classic">Classic</button>
+                <button class="neon-button small outline" data-filter="reaction">Reaction</button>
+                <button class="neon-button small outline" data-filter="animals">Animals</button>
+            </div>
+        </div>
+        
+        <div class="meme-grid">
+            <!-- Filled by JavaScript -->
+            <div class="grid-sizer"></div>
+        </div>
+        
+        <div class="load-more">
+            <button class="neon-button" id="loadMore">
+                <i class="fas fa-plus"></i> Load More Memes
+            </button>
+        </div>
+    </main>
+    
+    <!-- Meme Modal -->
+    <div id="memeModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-meme">
+                <img id="modalMemeImage" src="" alt="Meme">
+            </div>
+            <div class="modal-actions">
+                <button class="neon-button small" id="customizeMeme">
+                    <i class="fas fa-edit"></i> Customize
+                </button>
+                <button class="neon-button small outline" id="downloadMeme">
+                    <i class="fas fa-download"></i> Download
+                </button>
+                <button class="neon-button small outline" id="shareMeme">
+                    <i class="fas fa-share-alt"></i> Share
+                </button>
+            </div>
+        </div>
+    </div>
+
+    
+      <!-- Footer -->
+    <footer class="neon-footer">
+        <p>&copy; 2024 MemeAI Mania |Islington College</p>
+    </footer>
+    
+    <script src="gallery.js"></script>
+
+</body>
+</html>

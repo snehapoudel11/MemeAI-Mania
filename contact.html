@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | MemeAI Mania</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="neon-theme">
+
+    <!-- Navigation -->
+    <nav class="neon-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo glow">
+                <i class="fas fa-robot"></i>
+                <span>MemeAI</span>Mania
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class=" glow">Home</a></li>
+                <li><a href="about.html" class="glow">About</a></li>
+                <li><a href="quiz.html" class="glow">Quiz</a></li>
+                <li><a href="gallery.html" class="glow">Gallery</a></li>
+                <li><a href="tips.html" class="glow">Tips</a></li>
+                <li><a href="contact.html" class="active glow">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="contact-container">
+        <div class="contact-header">
+            <h1 class="neon-text">Contact <span class="text-gradient">Our Team</span></h1>
+            <p>Have questions or meme requests? We'd love to hear from you!</p>
+            <div class="neon-divider"></div>
+        </div>
+        
+        <div class="contact-content">
+            <form id="contactForm" class="neon-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <div class="neon-underline"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                    <div class="neon-underline"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="meme-request">Meme Request</option>
+                        <option value="bug-report">Bug Report</option>
+                        <option value="collab">Collaboration</option>
+                    </select>
+                    <div class="neon-underline"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <div class="neon-underline"></div>
+                </div>
+                
+                <button type="submit" class="neon-button">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+            
+            <div class="contact-info">
+                <div class="info-card glow-hover">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>hello@memeaimania.com</p>
+                </div>
+                
+                <div class="info-card glow-hover">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>Islington College, Kamalpokhari, Kathmandu</p>
+                </div>
+                
+                <div class="info-card glow-hover">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Hours</h3>
+                    <p>Monday-Friday: 9AM - 5PM</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <!-- Footer -->
+    <footer class="neon-footer">
+        <p>&copy; 2024 MemeAI Mania | Created for Islington College</p>
+    </footer>
+
+    <script src="form.js"></script>
+
+   
+</body>
+</html>
