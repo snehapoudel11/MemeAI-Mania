@@ -4,84 +4,84 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             id: 1, 
             // title: "Distracted Boyfriend", 
-            image : "/assets/meme (23).jpg",
+            image : "assets/meme (23).jpg",
             category: "trending", 
             tags: ["reaction", "funny", "relationships"] 
         },
         { 
             id: 2, 
             //title: "Drake Hotline Bling", 
-            image: "/assets/meme (2).PNG", 
+            image: "assets/meme (2).PNG", 
             category: "classic", 
             tags: ["reaction", "approval"] 
         },
         { 
             id: 3, 
             //title: "Crying Cat", 
-            image: "/assets/meme (3).jpg", 
+            image: "assets/meme (3).jpg", 
             category: "animals", 
             tags: ["sad", "cat", "reaction"] 
         },
         { 
             id: 4, 
             // title: "Change My Mind", 
-            image: "/assets/meme (4).jpg", 
+            image: "assets/meme (4).jpg", 
             category: "classic", 
             tags: ["debate", "opinion"] 
         },
         { 
             id: 5, 
             // title: "Woman Yelling at Cat", 
-            image: "/assets/meme (5).jpg", 
+            image: "assets/meme (5).jpg", 
             category: "animals", 
             tags: ["cat", "argument", "funny"] 
         },
         { 
             id: 6, 
             // title: "Two Buttons", 
-            image: "/assets/meme (6).jpg", 
+            image: "assets/meme (6).jpg", 
             category: "trending", 
             tags: ["decision", "dilemma"] 
         },
         { 
             id: 7, 
             // title: "Surprised Pikachu", 
-            image: "/assets/meme (7).jpg", 
+            image: "assets/meme (7).jpg", 
             category: "reaction", 
             tags: ["shock", "surprise", "pokemon"] 
         },
         { 
             id: 8, 
             // title: "Expanding Brain", 
-            image: "/assets/meme (8).jpg", 
+            image: "assets/meme (8).jpg", 
             category: "trending", 
             tags: ["intelligence", "evolution", "funny"] 
         },
         { 
             id: 9, 
             // title: "Left Exit 12", 
-            image: "/assets/meme (9).jpg", 
+            image: "assets/meme (9).jpg", 
             category: "classic", 
             tags: ["confusion", "road", "sign"] 
         },
         { 
             id: 10, 
             // title: "Running Away", 
-            image: "/assets/meme (10).jpg", 
+            image: "assets/meme (10).jpg", 
             category: "reaction", 
             tags: ["escape", "panic", "funny"] 
         },
         { 
             id: 11, 
             //title: "Dog in Fire", 
-            image: "/assets/meme (11).jpg", 
+            image: "assets/meme (11).jpg", 
             category: "animals", 
             tags: ["dog", "fire", "fine"] 
         },
         { 
             id: 12, 
             //title: "Disaster Girl", 
-            image: "/assets/meme (12).jpg", 
+            image: "assets/meme (12).jpg", 
             category: "classic", 
             tags: ["smirk", "fire", "mischief"] 
         },
@@ -89,56 +89,56 @@ document.addEventListener('DOMContentLoaded', function() {
         {
              id: 13,
              //title: "Success Kid", 
-             image: "/assets/meme (13).jpg", 
+             image: "assets/meme (13).jpg", 
              category: "trending", 
              tags: ["success", "happy", "child"] 
         },
 
         { id: 14,
              //title: "Bad Luck Brian",
-             image: "/assets/meme (14).jpg",
+             image: "assets/meme (14).jpg",
              category: "classic", 
              tags: ["unlucky", "fail", "funny"]
         },
 
         { id: 15,
              //title: "Grumpy Cat", 
-             image: "/assets/meme (15).jpg", 
+             image: "assets/meme (15).jpg", 
              category: "animals", 
              tags: ["cat", "grumpy", "reaction"] 
         },
 
         { id: 16,
              //title: "Evil Kermit", 
-             image: "/assets/meme (16).jpg", 
+             image: "assets/meme (16).jpg", 
              category: "reaction", 
              tags: ["temptation", "internal", "conflict"] 
         },
 
         { id: 17, 
             //title: "Doge", 
-            image: "/assets/meme (17).jpg",
+            image: "assets/meme (17).jpg",
             category: "animals", 
             tags: ["dog", "shiba", "internet"]
         },
 
         { id: 18,
              //title: "Willy Wonka", 
-             image: "/assets/meme (18).jpg",
+             image: "assets/meme (18).jpg",
              category: "classic", 
              tags: ["sarcasm", "reaction", "movie"]
         },
 
         { id: 19,
              //title: "Arthur Fist", 
-             image: "/assets/meme (19).jpg",
+             image: "assets/meme (19).jpg",
              category: "reaction", 
              tags: ["anger", "frustration", "cartoon"] 
         },
 
         { id: 20, 
             //title: "Panik Kalm", 
-            image: "/assets/meme (20).jpg", 
+            image: "assets/meme (20).jpg", 
             category: "trending", 
             tags: ["emotions", "reaction", "mood"] 
         },
@@ -146,84 +146,84 @@ document.addEventListener('DOMContentLoaded', function() {
          { 
             id: 21, 
             //title: "Distracted Boyfriend", 
-            image : "/assets/meme (21).JPG",
+            image : "assets/meme (21).JPG",
             category: "trending", 
             tags: ["reaction", "funny", "relationships"] 
         },
         { 
             id: 22, 
             //title: "Drake Hotline Bling", 
-            image: "/assets/meme (22).jpg", 
+            image: "assets/meme (22).jpg", 
             category: "classic", 
             tags: ["reaction", "approval"] 
         },
         { 
             id: 23, 
             //title: "Crying Cat", 
-            image: "/assets/meme (1).png", 
+            image: "assets/meme (1).png", 
             category: "animals", 
             tags: ["sad", "cat", "reaction"] 
         },
         { 
             id: 24, 
             //title: "Change My Mind", 
-            image: "/assets/meme (24).jpg", 
+            image: "assets/meme (24).jpg", 
             category: "classic", 
             tags: ["debate", "opinion"] 
         },
         { 
             id: 25, 
             //title: "Woman Yelling at Cat", 
-            image: "/assets/meme (25).jpg", 
+            image: "assets/meme (25).jpg", 
             category: "animals", 
             tags: ["cat", "argument", "funny"] 
         },
         { 
             id: 26, 
             //title: "Two Buttons", 
-            image: "/assets/meme (26).jpg", 
+            image: "assets/meme (26).jpg", 
             category: "trending", 
             tags: ["decision", "dilemma"] 
         },
         { 
             id: 27, 
             //title: "Surprised Pikachu", 
-            image: "/assets/meme (27).jpg", 
+            image: "assets/meme (27).jpg", 
             category: "reaction", 
             tags: ["shock", "surprise", "pokemon"] 
         },
         { 
             id: 28, 
             //title: "Expanding Brain", 
-            image: "/assets/meme (50).jpg", 
+            image: "assets/meme (50).jpg", 
             category: "trending", 
             tags: ["intelligence", "evolution", "funny"] 
         },
         { 
             id:29, 
             //title: "Left Exit 12", 
-            image: "/assets/meme(29).jpg", 
+            image: "assets/meme(29).jpg", 
             category: "classic", 
             tags: ["confusion", "road", "sign"] 
         },
         { 
             id: 30, 
             //title: "Running Away", 
-            image: "/assets/meme (30).jpg", 
+            image: "assets/meme (30).jpg", 
             category: "reaction", 
             tags: ["escape", "panic", "funny"] 
         },
         { 
             id: 31, 
             //title: "Dog in Fire", 
-            image: "/assets/meme (31).jpg", 
+            image: "assets/meme (31).jpg", 
             category: "animals", 
             tags: ["dog", "fire", "fine"] 
         },
         { 
             id: 32, 
             //title: "Disaster Girl", 
-            image: "/assets/meme (32).jpg", 
+            image: "assets/meme (32).jpg", 
             category: "classic", 
             tags: ["smirk", "fire", "mischief"] 
         },
@@ -231,56 +231,56 @@ document.addEventListener('DOMContentLoaded', function() {
         {
              id: 33,
              //title: "Success Kid", 
-             image: "/assets/meme (33).jpg", 
+             image: "assets/meme (33).jpg", 
              category: "trending", 
              tags: ["success", "happy", "child"] 
         },
 
         { id: 34,
              //title: "Bad Luck Brian",
-             image: "/assets/meme (34).jpg",
+             image: "assets/meme (34).jpg",
              category: "classic", 
              tags: ["unlucky", "fail", "funny"]
         },
 
         { id: 35,
              //title: "Grumpy Cat", 
-             image: "/assets/meme (35).jpg", 
+             image: "assets/meme (35).jpg", 
              category: "animals", 
              tags: ["cat", "grumpy", "reaction"] 
         },
 
         { id: 36,
              //title: "Evil Kermit", 
-             image: "/assets/meme (36).jpg", 
+             image: "assets/meme (36).jpg", 
              category: "reaction", 
              tags: ["temptation", "internal", "conflict"] 
         },
 
         { id: 37, 
             //title: "Doge", 
-            image: "/assets/meme (37).jpg",
+            image: "assets/meme (37).jpg",
             category: "animals", 
             tags: ["dog", "shiba", "internet"]
         },
 
         { id: 38,
              //title: "Willy Wonka", 
-             image: "/assets/meme (38).jpg",
+             image: "assets/meme (38).jpg",
              category: "classic", 
              tags: ["sarcasm", "reaction", "movie"]
         },
 
         { id: 39,
              //title: "Arthur Fist", 
-             image: "/assets/meme (39).jpg",
+             image: "assets/meme (39).jpg",
              category: "reaction", 
              tags: ["anger", "frustration", "cartoon"] 
         },
 
         { id: 40, 
             //title: "Panik Kalm", 
-            image: "/assets/meme (40).jpg", 
+            image: "assets/meme (40).jpg", 
             category: "trending", 
             tags: ["emotions", "reaction", "mood"] 
         },
@@ -288,70 +288,70 @@ document.addEventListener('DOMContentLoaded', function() {
          { 
             id: 41, 
             //title: "Distracted Boyfriend", 
-            image : "/assets/meme (41).JPG",
+            image : "assets/meme (41).JPG",
             category: "trending", 
             tags: ["reaction", "funny", "relationships"] 
         },
         { 
             id: 42, 
             //title: "Drake Hotline Bling", 
-            image: "/assets/meme (42).JPG", 
+            image: "assets/meme (42).JPG", 
             category: "classic", 
             tags: ["reaction", "approval"] 
         },
         { 
             id: 43, 
             //title: "Crying Cat", 
-            image: "/assets/meme (43).jpg", 
+            image: "assets/meme (43).jpg", 
             category: "animals", 
             tags: ["sad", "cat", "reaction"] 
         },
         { 
             id: 44, 
             //title: "Change My Mind", 
-            image: "/assets/meme (44).jpg", 
+            image: "assets/meme (44).jpg", 
             category: "classic", 
             tags: ["debate", "opinion"] 
         },
          { 
             id: 45, 
             //title: "Crying Cat", 
-            image: "/assets/meme (45).jpg", 
+            image: "assets/meme (45).jpg", 
             category: "animals", 
             tags: ["sad", "cat", "reaction"] 
         },
         { 
             id: 46, 
             //title: "Change My Mind", 
-            image: "/assets/meme (46).jpg", 
+            image: "assets/meme (46).jpg", 
             category: "classic", 
             tags: ["debate", "opinion"] 
         },
         { 
             id: 47, 
             //title: "Woman Yelling at Cat", 
-            image: "/assets/meme (47).jpg", 
+            image: "assets/meme (47).jpg", 
             category: "animals", 
             tags: ["cat", "argument", "funny"] 
         },
         { 
             id: 48, 
             //title: "Two Buttons", 
-            image: "/assets/meme (48).jpg", 
+            image: "assets/meme (48).jpg", 
             category: "trending", 
             tags: ["decision", "dilemma"] 
         },
         { 
             id: 49, 
             //title: "Surprised Pikachu", 
-            image: "/assets/meme (49).jpg", 
+            image: "assets/meme (49).jpg", 
             category: "reaction", 
             tags: ["shock", "surprise", "pokemon"] 
         },
         { 
             id: 50, 
             //title: "Expanding Brain", 
-            image: "/assets/meme (51).jpg", 
+            image: "assets/meme (51).jpg", 
             category: "trending", 
             tags: ["intelligence", "evolution", "funny"] 
         },
