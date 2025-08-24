@@ -667,6 +667,7 @@ body {
     gap: 1rem;
     justify-content: center;
 }
+
 /* Gallery Page Styles */
 .gallery-container {
     padding: 8rem 5% 5rem;
@@ -804,6 +805,7 @@ body {
 }
 
 .modal-meme img {
+    height: 540px;
     width: 100%;
     border-radius: 8px;
 }
@@ -813,6 +815,92 @@ body {
     gap: 1rem;
     justify-content: center;
     margin-top: 2rem;
+}
+
+/* ==================== */
+/* MASONRY GRID LAYOUT */
+/* ==================== */
+
+.meme-grid {
+    display: block;
+    margin: 3rem 0;
+}
+
+.grid-sizer,
+.meme-item {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+
+.meme-item {
+    float: left;
+    break-inside: avoid;
+}
+
+.meme-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: rgba(31, 73, 89, 0.3);
+    height: 100%;
+}
+
+.meme-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.meme-info {
+    padding: 1.2rem;
+}
+
+.meme-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.meme-category {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background: rgba(0, 243, 255, 0.2);
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: var(--neon-primary);
+}
+
+/* Clearfix for masonry grid */
+.meme-grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Responsive adjustments for masonry grid */
+@media (max-width: 1200px) {
+    .grid-sizer,
+    .meme-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-sizer,
+    .meme-item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Remove the existing grid styles that conflict with masonry */
+.meme-grid {
+    display: block !important;
+    grid-template-columns: none !important;
+    gap: 0 !important;
 }
 
 /* Tips Page Styles */
@@ -1003,4 +1091,84 @@ body {
 .info-card h3 {
     margin-bottom: 0.5rem;
     color: var(--neon-primary);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(0, 243, 255, 0.7); }
+    70% { box-shadow: 0 0 0 15px rgba(0, 243, 255, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(0, 243, 255, 0); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background: var(--darker-bg);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease;
+    }
+    
+    .nav-links.active {
+        left: 0;
+    }
+    
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+        cursor: pointer;
+    }
+    
+    .hamburger .line {
+        width: 100%;
+        height: 3px;
+        background: var(--neon-primary);
+        transition: all 0.3s ease;
+    }
+    
+    .hamburger.active .line:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+    
+    .hamburger.active .line:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .line:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+
+    .options-grid {
+        grid-template-columns: 1fr;
+    }
 }

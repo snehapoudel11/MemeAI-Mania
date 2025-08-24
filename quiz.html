@@ -670,9 +670,141 @@
                 </div>
             </div>
         </div>
-    </main> 
+    </main>
+    
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const quizForm = document.getElementById('memeQuiz');
+            const questions = document.querySelectorAll('.quiz-question');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const quizResult = document.getElementById('quizResult');
+            let currentQuestion = 0;
+
+            // Meme personality database
+            const memeDatabase = {
+                // Personality types
+                "god-excited-judge-descriptive-pride-cat-divorce-chips-hear-hide-oops-walking-food-laundry-pineapple": {
+                    title: "lorem ipsum",
+                    emoji: " ",
+                    description: "lorem ipsum dolor sit amet"
+                },
+                "fear-cry-understand-cryptic-cringe-goose-rootcanal-soup-smell-pretend-youtube-volume-commercial-dishes-toilet": {
+                    title: "lorem ipsum",
+                    emoji: " ",
+                    description: "lorem ipsum dolor sit amet!"
+                },
+                "celebrate-nod-teach-funny-question-dolphin-taxaudit-popcorn-invisible-escape-first-snack-algorithm-email-cereal": {
+                    title: "lorem ipsum",
+                    emoji: " ",
+                    description: "lorem ipsum dolor sit amet!"
+                },
+                "question-escape-adopt-single-rewrite-squirrel-pineapple-celery-fly-lie-bet-button-sock-groceries-shower": {
+                    title: "lorem ipsum",
+                    emoji: " ",
+                    description: "lorem ipsum dolor sit amet"
+                },
+                
+                // Default result
+                "default": {
+                    title: "lorem ipsum",
+                    emoji: "🤖",
+                    description: "lorem ipsum dolor sit amet."
+                }
+            };
+
+            // Show current question
+            function showQuestion(index) {
+                questions.forEach((question, i) => {
+                    question.classList.toggle('active', i === index);
+                });
+                
+                prevBtn.disabled = index === 0;
+                nextBtn.textContent = index === questions.length - 1 ? 'See Results' : 'Next';
+            }
+
+            // Next button click
+            nextBtn.addEventListener('click', function() {
+                const currentOptions = questions[currentQuestion].querySelectorAll('input');
+                const isAnswered = [...currentOptions].some(option => option.checked);
+                
+                if(!isAnswered) {
+                    alert('Please select an answer before continuing!');
+                    return;
+                }
+                
+                if(currentQuestion < questions.length - 1) {
+                    currentQuestion++;
+                    showQuestion(currentQuestion);
+                } else {
+                    showResults();
+                }
+            });
+
+            // Previous button click
+            prevBtn.addEventListener('click', function() {
+                if(currentQuestion > 0) {
+                    currentQuestion--;
+                    showQuestion(currentQuestion);
+                }
+            });
+
+            // Calculate and show results
+           
+                
+                     //(Working on this part***)
+
+
+            // Get all answers
+           
+
+
+
+
+
+                
+            // Get result (fallback to default if no match)
+            
+
+            //     document.getElementById('resultTitle').textContent = result.title;
+            //     document.getElementById('resultMeme').textImageContent = result.emoji;
+            //     document.getElementById('resultDescription').textContent = result.description;
+                
+            //     Scroll to results
+            //     quizResult.scrollIntoView({ behavior: 'smooth' });
+             
+
+
+
+
+            // Retake quiz
+            document.getElementById('retakeQuiz').addEventListener('click', function() {
+                quizForm.reset();
+                quizForm.classList.remove('hidden');
+                quizResult.classList.add('hidden');
+                currentQuestion = 0;
+                showQuestion(currentQuestion);
+                window.scrollTo(0, 0);
+            });
+
+            // Save result
+            document.getElementById('saveResult').addEventListener('click', function() {
+                alert('Result saved! (In a real app, this would save your result)');
+            });
+
+            // Share result
+            document.getElementById('shareResult').addEventListener('click', function() {
+                alert('Sharing to social media! (In a real app, this would open share dialogs)');
+            });
+
+            // Initialize
+            showQuestion(currentQuestion);
+        });
+    </script>
 
     <!-- Footer -->
     <footer class="neon-footer"> 
-        <p>&copy; 2025 MemeAI Mania | Islington College</p> 
+        <p>&copy; 2024 MemeAI Mania | Islington College</p> 
     </footer>
+</body> 
+</html>
