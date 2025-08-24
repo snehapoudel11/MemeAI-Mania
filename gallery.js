@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             id: 50, 
             //title: "Expanding Brain", 
-            image: "assets/meme (51).JPG", 
+            image: "assets/meme (51).jpeg", 
             category: "trending", 
             tags: ["intelligence", "evolution", "funny"] 
         },
