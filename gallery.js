@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             id: 1, 
             // title: "Distracted Boyfriend", 
-            image : "assets/meme (23).JPG",
+            image : "assets/meme (23).jpg",
             category: "trending", 
             tags: ["reaction", "funny", "relationships"] 
         },
