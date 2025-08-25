@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         { id: 14,
              //title: "Bad Luck Brian",
-             image: "assets/meme (14).jpg",
+             image: "assets/meme (14).JPG",
              category: "classic", 
              tags: ["unlucky", "fail", "funny"]
         },
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             id: 50, 
             //title: "Expanding Brain", 
-            image: "assets/meme (51).jpeg", 
+            image: "assets/meme51.jpeg", 
             category: "trending", 
             tags: ["intelligence", "evolution", "funny"] 
         },
