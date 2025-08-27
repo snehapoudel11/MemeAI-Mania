@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { id: 47, image: "assets/meme (47).JPG", category: "animals", tags: ["cat", "argument", "funny"] },
         { id: 48, image: "assets/meme (48).JPG", category: "trending", tags: ["decision", "dilemma"] },
         { id: 49, image: "assets/meme (49).JPG", category: "reaction", tags: ["shock", "surprise", "pokemon"] },
-        { id: 50, image: "assets/meme51.jpeg", category: "trending", tags: ["intelligence", "evolution", "funny"] },
+        { id: 50, image: "assets/meme (52).JPG", category: "trending", tags: ["intelligence", "evolution", "funny"] },
     ];
     
     const memeGrid = document.querySelector('.meme-grid');
