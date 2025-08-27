@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Personality Quiz | MemeAI Mania</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="neon-theme">
+    <!-- Navigation -->
+    <nav class="neon-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo glow">
+                <i class="fas fa-robot"></i>
+                <span>MemeAI</span>Mania
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="glow">Home</a></li>
+                <li><a href="about.html" class="glow">About</a></li>
+                <li><a href="quiz.html" class="active glow">Quiz</a></li>
+                <li><a href="gallery.html" class="glow">Gallery</a></li>
+                <li><a href="tips.html" class="glow">Tips</a></li>
+                <li><a href="contact.html" class="glow">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="quiz-container">
+        <div class="quiz-header">
+            <h1 class="neon-text">Meme Personality Quiz</h1>
+            <p>Answer these 5 hilarious questions to discover your meme alter ego!</p>
+        </div>
+        
+        <form id="memeQuiz">
+            <!-- Question 1 -->
+            <div class="quiz-question active">
+                <div class="question-number">Question 1/5</div>
+                <h2>When you encounter a bug in your code, you:</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q1" value="rage">
+                        <div class="option-content">
+                            <i class="fas fa-angry"></i>
+                            <span>Rage like "Angry German Kid"</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q1" value="confused">
+                        <div class="option-content">
+                            <i class="fas fa-question"></i>
+                            <span>Stare like "Confused Nick Young"</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q1" value="sad">
+                        <div class="option-content">
+                            <i class="fas fa-sad-tear"></i>
+                            <span>Cry like "Sad Keanu"</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q1" value="shrug">
+                        <div class="option-content">
+                            <i class="fas fa-meh"></i>
+                            <span>Shrug like "Whatever Woman"</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Question 2 -->
+            <div class="quiz-question">
+                <div class="question-number">Question 2/5</div>
+                <h2>Your ideal weekend involves:</h2>
+                <div class="options-grid">
+                    <label class="option-card">
+                        <input type="radio" name="q2" value="party">
+                        <div class="option-content">
+                            <i class="fas fa-glass-cheers"></i>
+                            <span>Partying like "Disaster Girl"</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q2" value="chill">
+                        <div class="option-content">
+                            <i class="fas fa-couch"></i>
+                            <span>Chilling like "Lazy College Senior"</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q2" value="productive">
+                        <div class="option-content">
+                            <i class="fas fa-tasks"></i>
+                            <span>Being productive like "Success Kid"</span>
+                        </div>
+                    </label>
+                    
+                    <label class="option-card">
+                        <input type="radio" name="q2" value="adventure">
+                        <div class="option-content">
+                            <i class="fas fa-hiking"></i>
+                            <span>Adventuring like "Overly Attached Girlfriend"</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Questions 3-5 would follow similar structure -->
+            
+            <div class="quiz-navigation">
+                <button type="button" class="neon-button outline" id="prevBtn" disabled>Previous</button>
+                <button type="button" class="neon-button" id="nextBtn">Next</button>
+            </div>
+        </form>
+        
+        <div id="quizResult" class="hidden">
+            <div class="result-header">
+                <h2>Your Meme Personality Is...</h2>
+                <div class="result-score">
+                    <span id="matchPercentage">92%</span> Match!
+                </div>
+            </div>
+            
+            <div class="result-card glow">
+                <div class="result-image">
+                    <img id="resultMeme" src="" alt="Your Meme Result">
+                </div>
+                <div class="result-details">
+                    <h3 id="resultTitle">Distracted Boyfriend</h3>
+                    <p id="resultDescription">You're easily distracted by shiny new technologies, always looking for the next best thing even when you already have something great.</p>
+                    
+                    <div class="result-actions">
+                        <button class="neon-button" id="saveResult">
+                            <i class="fas fa-download"></i> Save Meme
+                        </button>
+                        <button class="neon-button outline" id="shareResult">
+                            <i class="fas fa-share-alt"></i> Share
+                        </button>
+                        <button class="neon-button outline" id="retakeQuiz">
+                            <i class="fas fa-redo"></i> Retake
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <!-- Footer -->
+    <footer class="neon-footer">
+        <p>&copy; 2024 MemeAI Mania | Created for Islington College</p>
+    </footer>
+    
+    <script src="quiz.js"></script>
+
+     
+
+</body>
+</html>

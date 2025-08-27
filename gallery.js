@@ -288,14 +288,14 @@ document.addEventListener('DOMContentLoaded', function() {
          { 
             id: 41, 
             //title: "Distracted Boyfriend", 
-            image : "assets/meme (41).JPG",
+            image : "assets/meme (41).jpg",
             category: "trending", 
             tags: ["reaction", "funny", "relationships"] 
         },
         { 
             id: 42, 
             //title: "Drake Hotline Bling", 
-            image: "assets/meme (42).JPG", 
+            image: "assets/meme (42).jpg", 
             category: "classic", 
             tags: ["reaction", "approval"] 
         },
